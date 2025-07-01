@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>Form Input Biodata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            width: 800px;
+            margin: 50px auto;
+            border: 1px solid #ccc;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #e0e0e0;
+            padding: 20px;
+        }
+
+        .sidebar h3 {
+            margin-top: 0;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        .form-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .form-content h2 {
+            text-align: center;
+        }
+
+        .form-group {
+            display: flex;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        .form-group label {
+            width: 120px;
+        }
+
+        .form-group input {
+            flex: 1;
+            padding: 5px;
+        }
+
+        .form-actions {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .form-actions input {
+            padding: 5px 15px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+        <h3>Menu</h3>
+        <ul>
+            <li>:: Input Biodata</li>
+            <li>:: Input Pendaftaran</li>
+        </ul>
+    </div>
+    <div class="form-content">
+        <h2>Form Input Biodata</h2>
+        <form action="/submit" method="post">
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama">
+            </div>
+            <div class="form-group">
+                <label for="alamat">Alamat:</label>
+                <input type="text" id="alamat" name="alamat">
+            </div>
+            <div class="form-group">
+                <label for="agama">Agama:</label>
+                <input type="text" id="agama" name="agama">
+            </div>
+            <div class="form-group">
+                <label for="jenis">Jenis:</label>
+                <input type="text" id="jenis" name="jenis">
+            </div>
+            <div class="form-group">
+                <label for="kelamin">Kelamin:</label>
+                <input type="text" id="kelamin" name="kelamin">
+            </div>
+            <div class="form-actions">
+                <input type="submit" value="Simpan">
+                <input type="reset" value="Batal">
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

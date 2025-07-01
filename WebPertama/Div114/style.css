@@ -1,0 +1,260 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .frame-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1569px;
+  height: 2092px;
+}
+
+.frame .div {
+  position: relative;
+  width: 1550px;
+  height: 2121px;
+  left: 19px;
+  overflow: hidden;
+}
+
+.frame .overlap-wrapper {
+  position: relative;
+  width: 1585px;
+  height: 2144px;
+  left: 19px;
+}
+
+.frame .overlap {
+  position: relative;
+  width: 1440px;
+  height: 2092px;
+  left: 42px;
+}
+
+.frame .homepage {
+  position: absolute;
+  width: 1440px;
+  height: 2092px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 1764px;
+  height: 1813px;
+  top: 308px;
+  left: -118px;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 1617px;
+  top: 0;
+  left: 118px;
+  background-color: #d9d9d9;
+}
+
+.frame .button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 181px;
+  height: 45px;
+  top: 1202px;
+  left: 929px;
+  background-color: #40dfea;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  height: 26px;
+  top: 9px;
+  left: 9px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  white-space: nowrap;
+}
+
+.frame .ASSIDE-ISI-TEKS {
+  position: absolute;
+  width: 822px;
+  top: 933px;
+  left: 942px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 32.0px;
+}
+
+.frame .jonathan-kemper {
+  position: absolute;
+  width: 469px;
+  height: 531px;
+  top: 784px;
+  left: 242px;
+  object-fit: cover;
+}
+
+.frame .stocksy {
+  position: absolute;
+  width: 1191px;
+  height: 602px;
+  top: 47px;
+  left: 242px;
+  object-fit: cover;
+}
+
+.frame .vector-wrapper {
+  position: absolute;
+  width: 1623px;
+  height: 222px;
+  top: 1591px;
+  left: 0;
+}
+
+.frame .vector {
+  position: absolute;
+  width: 1440px;
+  height: 193px;
+  top: 0;
+  left: 118px;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  width: 1020px;
+  top: 66px;
+  left: 210px;
+  font-family: "Newsreader-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: -1.28px;
+  line-height: 76.8px;
+}
+
+.frame .header {
+  position: absolute;
+  width: 1440px;
+  height: 112px;
+  top: 152px;
+  left: -96px;
+  background-color: #fddddd;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  width: 401px;
+  height: 46px;
+  top: 26px;
+  left: 608px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ef24c9;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 41.6px;
+  white-space: nowrap;
+}
+
+.frame .cart-button {
+  position: absolute;
+  width: 55px;
+  height: 35px;
+  top: 24px;
+  left: 87px;
+  background-color: #32e0ec;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  height: 21px;
+  top: 6px;
+  left: 11px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-5 {
+  position: absolute;
+  top: 34px;
+  left: 1164px;
+  font-family: "Newsreader-Medium", Helvetica;
+  font-weight: 500;
+  color: #4ee9eb;
+  font-size: 32px;
+  letter-spacing: -0.32px;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.frame .img {
+  position: absolute;
+  width: 55px;
+  height: 35px;
+  top: 24px;
+  left: 13px;
+}
+
+.frame .img-2 {
+  position: absolute;
+  width: 55px;
+  height: 35px;
+  top: 24px;
+  left: 161px;
+}
+
+.frame .text-wrapper-6 {
+  position: absolute;
+  height: 42px;
+  top: 1985px;
+  left: 557px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 41.6px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-7 {
+  position: absolute;
+  height: 26px;
+  top: 1032px;
+  left: 292px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  white-space: nowrap;
+}

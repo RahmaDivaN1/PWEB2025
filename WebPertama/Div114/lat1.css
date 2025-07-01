@@ -1,0 +1,46 @@
+/* Element selector */
+body {
+    font-family: Verdana, sans-serif;
+    color: black;
+    background: #f0f0f0;
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: navy;
+}
+
+/* ID selector */
+#highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Class selector */
+.bordered {
+    border: 2px dashed green;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Group selector */
+h3, p {
+    font-style: italic;
+}
+
+/* List customization */
+ul {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Link pseudo classes */
+a:link { color: rgb(0, 0, 153); text-decoration: none; }
+a:visited { color: rgb(153, 0, 153); }
+a:active { color: rgb(255, 0, 102); }
+a:hover { color: rgb(0, 96, 255); text-decoration: underline; }

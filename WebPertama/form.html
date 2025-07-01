@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Input Biodata</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+    .sidebar {
+      width: 200px;
+      background-color: #e0e0e0;
+      padding: 20px;
+    }
+    .sidebar h3 {
+      text-align: center;
+    }
+    .sidebar a {
+      display: block;
+      margin: 10px 0;
+      text-decoration: none;
+      color: black;
+    }
+    .form-area {
+      flex-grow: 1;
+      padding: 30px;
+      border-left: 1px solid #ccc;
+    }
+    .form-area h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    table {
+      margin: auto;
+    }
+    td {
+      padding: 8px;
+      vertical-align: top;
+    }
+    input[type="text"], select, textarea {
+      width: 300px;
+      padding: 5px;
+    }
+    textarea {
+      height: 80px;
+    }
+    .gender input {
+      width: auto;
+      margin-right: 5px;
+    }
+    .buttons {
+      text-align: center;
+      padding-top: 15px;
+    }
+    .buttons input {
+      padding: 6px 12px;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Sidebar Menu -->
+  <div class="sidebar">
+    <h3><strong>Menu</strong></h3>
+    <a href="#">:: Input Biodata</a>
+    <a href="#">:: Input Pendaftaran</a>
+  </div>
+
+  <!-- Form Area -->
+  <div class="form-area">
+    <h2>Form Input Biodata</h2>
+    <form>
+      <table>
+        <tr>
+          <td>Nama</td><td>:</td><td><input type="text" name="nama"></td>
+        </tr>
+        <tr>
+          <td>Alamat</td><td>:</td><td><input type="text" name="alamat"></td>
+        </tr>
+        <tr>
+          <td>Telp</td><td>:</td><td><input type="text" name="telp"></td>
+        </tr>
+        <tr>
+          <td>Jenis Kelamin</td><td>:</td>
+          <td class="gender">
+            <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+            <input type="radio" name="jk" value="Perempuan"> Perempuan
+          </td>
+        </tr>
+        <tr>
+          <td>Agama</td><td>:</td>
+          <td>
+            <select name="agama">
+              <option value="">-- Pilih Agama --</option>
+              <option value="Islam">Islam</option>
+              <option value="Kristen">Kristen</option>
+              <option value="Hindu">Hindu</option>
+              <option value="Budha">Budha</option>
+              <option value="Katolik">Katolik</option>
+              <option value="Konghucu">Konghucu</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Prestasi yang pernah diraih</td><td>:</td>
+          <td><textarea name="prestasi"></textarea></td>
+        </tr>
+      </table>
+      <div class="buttons">
+        <input type="submit" value="Simpan">
+        <input type="reset" value="Batal">
+      </div>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
+</body>
+</html>
