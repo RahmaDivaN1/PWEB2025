@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #1a1a1a;
+    background: #fdf4ef;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    background: #f87171;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .hero-text span {
+    background: #fde047;
+    padding: 0 6px;
+  }
+  
+  .hero-img img {
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  .quiz-box {
+    background: #ede2d3;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .quiz-box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .quiz-box p {
+    margin-bottom: 20px;
+  }
+  
+  .quiz-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #1a1a1a;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: bold;
+  }
+  
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+  }
+  
+  .about-img img {
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  .about-text {
+    max-width: 600px;
+  }
+  
+  .about-text .intro {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .about-text h2 {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  
+  .story-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #fde047;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: bold;
+  }
+  
+  .nim {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    margin-top: 60px;
+    font-size: 14px;
+    color: #888;
+  }
+  
