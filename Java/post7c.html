@@ -1,0 +1,78 @@
+<HTML>
+<BODY>
+<SCRIPT LANGUAGE="JavaScript">
+function warna(pilihan){
+  alert("Anda Memilih Warna " + pilihan);
+  document.bgColor = pilihan;
+}
+
+function ubahWarnaDropdown(selectObj) {
+  let pilihan = selectObj.value;
+  alert("Warna dari dropdown: " + pilihan);
+  document.bgColor = pilihan;
+}
+
+function highlight(obj){
+  obj.style.backgroundColor = "yellow";
+}
+
+function unhighlight(obj){
+  obj.style.backgroundColor = "white";
+}
+
+function fokus(obj){
+  alert("Input sedang difokuskan!");
+}
+</SCRIPT>
+
+<h1 align="center">Latihan Event JavaScript</h1>
+<hr width="500" color="black" noshade>
+<h3 align="center">Pilih warna background favorit anda.</h3>
+
+<CENTER>
+<!-- Tombol OnClick -->
+<FORM>
+<INPUT TYPE="button" VALUE="Biru" onClick="warna('lightblue')">
+<INPUT TYPE="button" VALUE="Pink" onClick="warna('pink')">
+<INPUT TYPE="button" VALUE="Coklat" onClick="warna('burlywood')">
+<INPUT TYPE="button" VALUE="Kelabu" onClick="warna('darkgray')">
+<INPUT TYPE="button" VALUE="Oranye" onClick="warna('peachpuff')">
+<INPUT TYPE="button" VALUE="Putih" onClick="warna('white')">
+</FORM>
+
+<!-- Dropdown dengan onChange -->
+<FORM>
+  <label for="selectWarna">Pilih Warna via Dropdown:</label>
+  <select id="selectWarna" onChange="ubahWarnaDropdown(this)">
+    <option value="white">Putih</option>
+    <option value="lightblue">Biru</option>
+    <option value="pink">Pink</option>
+    <option value="burlywood">Coklat</option>
+    <option value="darkgray">Kelabu</option>
+    <option value="peachpuff">Oranye</option>
+  </select>
+</FORM>
+
+<!-- Gambar dengan onMouseOver dan onMouseOut -->
+<FORM>
+<IMG NAME="coolfan" SRC="kipas.jpg" width=61 height=72
+     onMouseOver="document.images['coolfan'].src='kipasGIF.jpg'"
+     onMouseOut="document.images['coolfan'].src='kipas.jpg'"><BR><BR>
+<INPUT TYPE="BUTTON" VALUE=" Off " onClick="document.images['coolfan'].src = 'kipas.jpg'">
+<INPUT TYPE="BUTTON" VALUE=" On " onClick="document.images['coolfan'].src = 'kipasGIF.jpg'">
+</FORM>
+
+<!-- Input dengan onFocus -->
+<FORM>
+  <label for="nama">Masukkan Nama:</label><br>
+  <input type="text" name="nama" id="nama"
+         onFocus="fokus(this)"
+         onMouseOver="highlight(this)"
+         onMouseOut="unhighlight(this)">
+</FORM>
+
+</CENTER>
+
+<hr width="500" color="black" noshade>
+</BODY>
+</HTML>
